@@ -6,7 +6,7 @@
 /* Stile base del body */
 body {
     font-family: 'Helvetica', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #fff;
 }
 
 /* CONTENITORE */
@@ -28,11 +28,23 @@ body {
     grid-template-areas:
         "main-top media-sidebar"
         "related-bottom media-sidebar";
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2.3fr 0.7fr;
     grid-template-rows: auto auto;
     gap: 20px;
     padding: 20px;
     margin: 40px 20px;
+    background-color: #fff;
+}
+.featured-news1 {
+    display: grid;
+    grid-template-areas:
+        "main-top media-sidebar"
+        "related-bottom media-sidebar";
+    grid-template-columns: 2.3fr 0.7fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 20px 40px 20px;
     background-color: #fff;
 }
 
@@ -47,12 +59,47 @@ body {
     border-radius: 5px;
     align-items: center;
 }
+.main-top1 {
+    grid-area: main-top;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.title-top {
+    font-family: "Publico Headline", serif;
+    font-size: 60px;
+    padding: 30px 0 0 60px;
+    font-weight: bolder;
+}
+
+
 
 .text-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+.text-content h1 {
+    font-size: 36px;
+    font-family: "Publico Headline", serif;
+    margin-bottom: 20px; /* Aggiungi margine inferiore per separare meglio */
+
+}
+
+.text-content a {
+    color: black;
+    text-decoration: none;
+}
+
+.text-content a:hover {
+    text-decoration: underline;
+}
+
 
 .text-content h2 {
 
@@ -96,16 +143,13 @@ body {
     text-align: center;
 }
 
+
+
 .related-item img {
     width: 100%;
     display: block;
 }
 
-.related-item h3 {
-    font-size: 16px;
-    margin-top: 8px;
-    color: #333;
-}
 
 .related-item .time {
     font-size: 12px;
@@ -136,22 +180,32 @@ body {
 }
 
 .secondary-list li {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    font-family: "Publico Headline", serif;
+    font-size: 25px;
+    font-weight: 700;
+
 }
 
 .secondary-list a {
+    font-family: "Publico Headline", serif;
     display: block;
     text-decoration: none;
-    color: #333;
-    font-size: 16px;
+    font-size: 19px;
     transition: color 0.3s ease;
+    color: black;
+    display: block;
 }
 
 .secondary-list a:hover {
-    color: #000;
+    text-decoration: underline;
+    color: black;
+
 }
 
 .secondary-list .time {
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 400;
     display: block;
     font-size: 12px;
     color: #999;
@@ -161,7 +215,7 @@ body {
 
 .related-item h4 {
     font-family: "Publico Headline", serif;
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 7px;
     text-align: left;
     font-weight: 700;
@@ -169,6 +223,54 @@ body {
 
 }
 
+.related-item a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.related-item a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
 .related-item span {
     float: left;
+}
+.news-item{
+    margin-top: 50px;
+}
+
+.text-with-image {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;  /* Posiziona il testo sopra e l'orario sotto */
+    margin-bottom: auto;
+}
+
+
+
+.text-content .time {
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #999;
+}
+
+.text-with-image img {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.text-content1 {
+    font-family: "Proxima Nova", sans-serif;
+    margin-top: 20px;
 }
