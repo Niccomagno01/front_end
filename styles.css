@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Stile base del body */
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* CONTENITORE */
+/* Sezione Notizie Principali */
+.main-news {
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+.main-news h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* FEATURED NEWS */
+.featured-news {
+    display: grid;
+    grid-template-areas:
+        "main-top media-sidebar"
+        "related-bottom media-sidebar";
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    padding: 20px;
+    margin: 40px 20px;
+    background-color: #fff;
+}
+
+/* Main top: testo e immagine */
+.main-top {
+    grid-area: main-top;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-content h2 {
+
+    font-family: "Publico Headline", serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.text-content .intro {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.text-content .time {
+    font-size: 12px;
+    color: #999;
+}
+
+.main-image img {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    display: block;
+}
+
+/* Notizie correlate */
+.related-bottom {
+    grid-area: related-bottom;
+    display: flex;
+    padding: 10px;
+    gap: 40px;
+
+}
+
+.related-item {
+    flex: 1;
+    text-align: center;
+}
+
+.related-item img {
+    width: 100%;
+    display: block;
+}
+
+.related-item h3 {
+    font-size: 16px;
+    margin-top: 8px;
+    color: #333;
+}
+
+.related-item .time {
+    font-size: 12px;
+    color: #999;
+    margin-top: 4px;
+}
+
+/* SIDEBAR */
+.media-sidebar {
+    grid-area: media-sidebar;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Video */
+.sidebar-video video {
+
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+/* Lista notizie secondarie */
+.secondary-list {
+    list-style: none;
+    padding: 0;
+}
+
+.secondary-list li {
+    margin-bottom: 10px;
+}
+
+.secondary-list a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.secondary-list a:hover {
+    color: #000;
+}
+
+.secondary-list .time {
+    display: block;
+    font-size: 12px;
+    color: #999;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.related-item h4 {
+    font-family: "Publico Headline", serif;
+    font-size: 25px;
+    margin-top: 7px;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1.18;
+
+}
+
+.related-item span {
+    float: left;
+}

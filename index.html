@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sito Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="news-list.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+        <!-- Menu principale a sinistra -->
+        <nav class="menu">
+            <ul>
+                <li class="menu-item">
+                    <a href="#">Latest</a>
+                    <div class="dropdown">
+                        <table>
+                            <tr>
+                                <td><a href="#">Sottosezione 1</a></td>
+                                <td><a href="#">Sottosezione 2</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Sottosezione 3</a></td>
+                                <td><a href="#">Sottosezione 4</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <a href="#">Local News</a>
+                    <div class="dropdown">
+                        <table>
+                            <tr>
+                                <td><a href="#">Sottosezione 1</a></td>
+                                <td><a href="#">Sottosezione 2</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Sottosezione 3</a></td>
+                                <td><a href="#">Sottosezione 4</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <a href="#">Live</a>
+                    <div class="dropdown">
+                        <table>
+                            <tr>
+                                <td><a href="#">U.S.</a></td>
+                                <td><a href="#">MoneyWatch</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Trump 100 Days</a></td>
+                                <td><a href="#">Crime</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">World</a></td>
+                                <td><a href="#">Space</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Politics</a></td>
+                                <td><a href="#">Sports</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Entratainment</a></td>
+                                <td><a href="#">Brand Studio</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">HealthWatch</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </li>
+                <li class="menu-item"><a href="#">Shows</a></li>
+                <li class="menu-item"><a href="#">...</a></li>
+            </ul>
+        </nav>
+
+        <!-- Logo centrato -->
+        <div class="logo">
+            <img src=".idea/imgs/header.jpeg" alt="Icona Header">
+        </div>
+
+        <!-- Lente-->
+        <div class="clickable-image">
+            <a href="https://www.example.com" target="_blank">
+                <img src=".idea/imgs/Lente.jpeg" alt="Immagine Cliccabile">
+            </a>
+        </div>
+    </div>
+</header>
+<main>
+    <!-- Sezione Notizie Principali -->
+    <section class="main-news">
+        <ul class="news-list">
+            <li><a href="#">U.S.</a></li>
+            <li><a href="#">Trump 100 Days</a></li>
+            <li><a href="#">World</a></li>
+            <li><a href="#">Politics</a></li>
+            <li><a href="#">HealthWatch</a></li>
+            <li><a href="#">MoneyWatch</a></li>
+            <li><a href="#">Entratainment</a></li>
+            <li><a href="#">Crime</a></li>
+            <li><a href="#">Sports</a></li>
+
+        </ul>
+    </section>
+
+    <!-- Linea divisoria -->
+    <hr class="divider">
+    <section class="featured-news">
+
+    <!-- Contenuto principale a sinistra -->
+    <div class="main-top">
+        <div class="text-content">
+            <h2><a href="#">National security adviser Mike Waltz and his deputy are leaving Trump White House</a></h2>
+            <p class="intro">
+                Trump national security adviser Mike Waltz and deputy Alex Wong are leaving the White House, multiple sources tell CBS News.
+            </p>
+            <span class="time">UPDATE 1h ago</span>
+        </div>
+        <div class="main-image">
+            <img src=".idea/imgs/foto1_1.jpeg" alt="Immagine Notizia Principale">
+        </div>
+    </div>
+
+    <!-- Notizie correlate in basso -->
+    <div class="related-bottom">
+        <div class="related-item">
+            <img src=".idea/imgs/foto1_2.jpeg" alt="Notizia correlata 1">
+            <h4><a href="#">Columbia student Mohsen Mahdawi released from ICE detention</a></h4>
+            <span class="time">UPDATE 8h ago</span>
+        </div>
+        <div class="related-item">
+            <img src=".idea/imgs/foto1_3.jpeg" alt="Notizia correlata 2">
+            <h4><a href="#">Noem says if Abrego Garcia is sent back to U.S. we'd "deport him again"</a></h4>
+            <span class="time">13h fa</span>
+        </div>
+        <div class="related-item">
+            <img src=".idea/imgs/pub1.jpeg" alt="Notizia correlata 2">
+        </div>
+    </div>
+
+
+    <!-- Sidebar con video e lista -->
+    <aside class="media-sidebar">
+
+        <div class="sidebar-video">
+            <div class="video-container">
+                <video src="video.mp4" controls></video>
+            </div>
+        </div>
+
+        <div class="sidebar-list">
+            <ul class="secondary-list">
+                <li>
+                    <a href="#">Pakistan claims India planning to attack within 36 hours as tension soars</a>
+                    <span class="time">3h fa</span>
+                </li>
+                <li>
+                    <a href="#">Supreme Court weighs effort to create nation's first religious charter school</a>
+                    <span class="time">5h fa</span>
+                </li>
+                <li>
+                    <a href="#">Satellite launches on mission to "weigh" the world's 1.5 trillion trees</a>
+                    <span class="time">8h fa</span>
+                </li>
+                <li>
+                    <a href="#">Diabetes deaths fall to lowest levels in years, in early CDC figures</a>
+                    <span class="time">12h fa</span>
+                </li>
+                <li>
+                    <a href="#">Iran hangs man convicted of spying for Israel</a>
+                    <span class="time">15h fa</span>
+                </li>
+                <li>
+                    <a href="#">Idaho must let execution witnesses watch lethal drug process, judge says</a>
+                    <span class="time">19h fa</span>
+                </li>
+            </ul>
+        </div>
+
+    </aside>
+</section>
+<div class="container">
+    <section class="primo">
+        <h2>Contenuto Principale</h2>
+        <p>Questo è il contenuto principale che prende circa 2/3 dello spazio.</p>
+    </section>
+
+    <section class="sidebar">
+        <h2>Contenuto Laterale</h2>
+        <p>Questo è il contenuto laterale che prende circa 1/3 dello spazio.</p>
+    </section>
+</div>
+</main>
+<footer class="cbs-footer">
+    <!-- Icona centrale sopra -->
+    <div class="footer-icon">
+        <img src=".idea/imgs/footer.jpeg" alt="Icona Footer">
+    </div>
+
+    <!-- Container per contenuto footer -->
+    <div class="footer-container">
+        <!-- Contenuto principale del footer -->
+        <div class="footer-top">
+            <div class="footer-col">
+                <h4>Featured</h4>
+                <ul>
+                    <li><a href="#">Trump's Speech Marking First 100 Days</a></li>
+                    <li><a href="#">Poll On Trump's First 100 Days</a></li>
+                    <li><a href="#">2025 NBA Playoff Schedule</a></li>
+                    <li><a href="#">2025 Kentucky Derby</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us On</h4>
+                <ul>
+                    <li><a href="#">Youtube</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">X</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Privacy</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Gestisci i Cookie</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>More from CBS News</h4>
+                <ul>
+                    <li><a href="#">Newsletters</a></li>
+                    <li><a href="#">Podcasts</a></li>
+                    <li><a href="#">Download Our App</a></li>
+                    <li><a href="#">Brand Studio</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Paramount</a></li>
+                    <li><a href="#">Advertise With Paramount</a></li>
+                    <li><a href="#">Join Our Talent Community</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Linea inferiore -->
+        <div class="footer-bottom">
+            <p>&copy; 2025 CBS Interactive Inc. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
+

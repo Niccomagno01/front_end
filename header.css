@@ -1,0 +1,110 @@
+/* Header */
+header {
+    border-bottom: 1px solid #ccc; /* linea sottile grigia */
+    background-color: white;  /* Sfondo bianco */
+    color: black;             /* Colore del testo */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+/* Container dell'header */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Menu a sinistra */
+nav.menu {
+    display: flex;
+    flex-grow: 1;
+}
+
+nav.menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav.menu .menu-item {
+    margin: 0 15px;
+}
+
+nav.menu .menu-item a {
+    color: black;            /* Colore del testo */
+    font-size: 16px;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+/* Dropdown */
+.menu-item:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f4f4f4; /* Sfondo chiaro */
+    min-width: 150px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.dropdown table td {
+    padding: 10px;
+    border: 1px solid #ccc;  /* Bordo chiaro */
+    text-align: center;
+}
+
+.dropdown table td a {
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown table td a:hover {
+    background-color: #ddd;  /* Hover chiaro */
+}
+
+/* Logo centrato */
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+    display: block;
+}
+
+/* Immagine cliccabile */
+.clickable-image {
+    margin-left: auto;  /* Sposta l'immagine a destra */
+}
+
+.clickable-image img {
+    width: 45px;  /* Larghezza immagine */
+    height: auto;
+    cursor: pointer;  /* Cursore puntato sopra l'immagine */
+}
+
+.clickable-image img:hover {
+    opacity: 0.8;  /* Hover con effetto di opacità */
+}
+
