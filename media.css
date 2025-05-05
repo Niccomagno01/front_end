@@ -1,0 +1,201 @@
+/* HAMBURGER MENU */
+.hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+    .hamburger {
+        display: block;
+    }
+
+    nav.menu {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        flex-direction: column;
+        display: none;
+    }
+
+    nav.menu.active {
+        display: flex;
+    }
+
+    nav.menu ul {
+        flex-direction: column;
+    }
+
+    nav.menu .menu-item {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .logo {
+        position: static;
+        transform: none;
+        margin: 0 auto;
+    }
+
+    .clickable-image {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .news-list {
+        flex-wrap: nowrap;
+    }
+}
+
+@media (max-width: 1200px) {
+    .footer-container {
+        margin: 0 40px;
+        padding: 0 50px 100px 0;
+    }
+
+    .footer-col {
+        flex: 1 1 220px;
+    }
+
+    .footer-icon img {
+        width: 250px;
+        height: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer-container {
+        margin: 0 30px;
+        padding: 0 40px 80px 0;
+    }
+
+    .footer-icon img {
+        width: 200px;
+        height: auto;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-col {
+        flex: 1 1 100%;
+    }
+    .footer-col:not(:last-child) {
+        border-bottom: 1px solid #333; /* Linea divisoria orizzontale */
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        margin: 0 20px;
+        padding: 0 30px 60px 0;
+    }
+
+    .footer-top {
+        gap: 15px;
+    }
+
+    .footer-col h4 {
+        font-size: 14px;
+    }
+
+    .footer-col li {
+        font-size: 14px;
+    }
+
+    .footer-bottom {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .footer-container {
+        margin: 0 10px;
+        padding: 0 20px 40px 0;
+    }
+
+    .footer-icon img {
+        width: 180px;
+        height: auto;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .footer-col {
+        flex: 1 1 100%;
+    }
+
+    .footer-col h4 {
+        font-size: 14px;
+    }
+
+    .footer-col li {
+        font-size: 13px;
+    }
+
+    .footer-bottom {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+@media (max-width: 800px) {
+    .title-top h2 {
+        font-size: 2px;
+    }
+
+    .featured-news,
+    .featured-news1,
+    .green-content,
+    .end-content {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .main-top,
+    .main-top1,
+    .related-bottom,
+    .media-sidebar {
+        width: 100%;
+        padding: 20px 0;
+        border-bottom: 1px solid #ccc;
+    }
+
+
+    .media-sidebar {
+        border-bottom: none;
+    }
+
+    .main-top {
+        grid-template-columns: 1fr;
+    }
+
+    .main-top1 {
+        grid-template-columns: 1fr;
+    }
+
+    .related-bottom {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .text-with-image {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .text-with-image img {
+        margin-right: 0;
+        width: 100%;
+    }
+}
+
