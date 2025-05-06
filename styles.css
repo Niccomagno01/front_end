@@ -32,6 +32,13 @@ body {
     margin: 40px 20px;
     background-color: #fff;
 }
+.featured-news-mobile{
+    display:none;
+}
+
+.featured-news-tablet{
+    display:none;
+}
 
 .featured-news1 {
     display: grid;
@@ -45,6 +52,7 @@ body {
     margin: 0 20px 40px 20px;
     background-color: #fff;
 }
+
 
 .main-top {
     grid-area: main-top;
