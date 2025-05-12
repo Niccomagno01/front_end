@@ -84,6 +84,9 @@ body {
     padding: 30px 0 0 60px;
     font-weight: bolder;
 }
+.title-top-mobile{
+    display: none;
+}
 
 .title-top2 {
     color: #fff;
@@ -385,4 +388,12 @@ body {
 
 .section-box a:hover {
     text-decoration: underline;
+}
+
+.featured-news1-mobile{
+    display:none;
+}
+
+.featured-news1-tablet{
+    display:none;
 }
