@@ -224,9 +224,11 @@
     .featured-news-mobile {
         display: block;
     }
-    .title-top-mobile{
+
+    .title-top-mobile {
         display: block;
     }
+
     .text-content {
         padding: 0 25px;
     }
@@ -284,10 +286,12 @@
         margin-top: 8px;
         display: block;
     }
-    .mobile-news-list li{
+
+    .mobile-news-list li {
         border-bottom: 0;
         border-top: 0;
     }
+
     .mobile-news-list li img {
         width: 80%;
         height: 80%;
@@ -307,13 +311,15 @@
         height: auto;
     }
 
-    .title-top{
+    .title-top {
         display: none;
     }
-    .title-top-tablet{
-        display:none;
+
+    .title-top-tablet {
+        display: none;
     }
-    .title-top-mobile{
+
+    .title-top-mobile {
         font-family: "Publico Headline", serif;
         font-size: 30px;
         padding: 30px 0 0 60px;
@@ -321,6 +327,20 @@
     }
 
     .featured-news1 {
+        display: none;
+    }
+    .blocco-3{
+        display: none;
+    }
+    .blocco-3-mobile {
+        display: block;
+    }
+    .blocco-3-mobile h2 {
+        font-family: "Publico Headline", serif;
+        font-weight: bolder;
+        padding: 10px 0 0 25px;
+    }
+    .tablet-title{
         display: none;
     }
 
@@ -347,13 +367,14 @@
         max-width: 100%;
         height: auto;
         display: block;
-        margin:0 auto;
+        margin: 0 auto;
     }
 
-    .grid-item h2{
+    .grid-item h2 {
         font-size: 19px;
 
     }
+
     .grid-item h3, .grid-item h4, .grid-item p {
         margin-top: 10px;
         font-family: "Publico Headline", serif;
@@ -362,38 +383,162 @@
         color: #000;
         text-decoration: none;
     }
-    .grid-item a{
+
+    .grid-item a {
         text-decoration: none;
         color: #000;
     }
+
     .grid-item a:hover {
         text-decoration: underline;
     }
-    .grid-item .time{
+
+    .grid-item .time {
         font-size: 8px;
         font-weight: lighter;
     }
-    .title-top{
+
+    .title-top {
         display: none;
     }
-    .title-top-mobile{
-        display:none;
+
+    .title-top-mobile {
+        display: none;
     }
+
     .featured-news1 {
         display: none;
     }
-    .title-top-tablet{
+
+    .title-top-tablet {
         font-family: "Publico Headline", serif;
         font-size: 30px;
         padding: 30px 0 0 30px;
         font-weight: bolder;
     }
-    .text-content a{
+
+    .text-content a {
         position: absolute;
     }
-    .text-content1{
+
+    .text-content1 {
         margin-top: 0;
     }
+    .grid-3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 20px;
+        margin: 0 20px 40px 20px;
+        background-color: #fff;
+    }
+
+    .box-item {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 10px;
+        overflow: hidden;
+        flex-wrap: nowrap;
+    }
+
+    .box-item .text-content {
+        flex: 1 1 0%;
+        min-width: 0;
+        overflow-wrap: break-word;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .box-item .intro {
+        display: none; /* Nascondi descrizione */
+    }
+
+    .box-item .image-box {
+        flex-shrink: 1;
+        width: auto;
+        max-width: 100px;
+        height: auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+
+    .box-item .image-box img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        display: block;
+    }
+
+    .blocco-3-mobile {
+        display: none;
+    }
+
+    .grid-3-columns {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 20px;
+        margin: 0px 20px;
+        background-color: #fff;
+    }
+
+    .news-box {
+        display: flex;
+        flex-direction: row;
+        background-color: #fff;
+        padding: 15px;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .text-area {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .text-area h3 {
+        font-family: "Publico Headline", serif;
+        font-size: 22px;
+        color: #000;
+        margin-bottom: 8px;
+    }
+
+    .text-area .time {
+        font-size: 12px;
+        color: #999;
+        font-family: "Proxima Nova", sans-serif;
+    }
+
+    .image-area {
+        width: 30%;
+    }
+
+    .image-area img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    .grid-3{
+        display: none;
+    }
+    .tablet-title {
+        display: block;
+
+    }
+
+    .tablet-title h2{
+        font-family: "Publico Headline", serif;
+        font-size: 30px;
+        font-weight: bolder;
+        padding: 10px 0 0 50px;
+        background: #fff;
+    }
+
 }
 
 

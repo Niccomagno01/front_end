@@ -397,3 +397,56 @@ body {
 .featured-news1-tablet{
     display:none;
 }
+.title-top-tablet{
+    display: none;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin: 0 20px 40px 20px;
+    background-color: #fff;
+}
+
+.box-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 15px;
+    position: relative;
+}
+
+.box-item .text-content {
+    font-family: "Publico Headline", serif;
+    flex-grow: 1;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.box-item .image-box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.box-item .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.blocco-3-mobile{
+    display: none;
+}
+.grid-3-columns{
+    display:none;
+}
+.tablet-title{
+    display:none;
+}
