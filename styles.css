@@ -189,9 +189,9 @@ body {
     gap: 20px;
 }
 
-.sidebar-video video {
+.sidebar-video img {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 .secondary-list {
