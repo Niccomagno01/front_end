@@ -42,6 +42,9 @@
     .clickable-image {
         margin-left: 0;
     }
+
+
+
 }
 
 @media (max-width: 768px) {
@@ -64,6 +67,12 @@
         width: 250px;
         height: auto;
     }
+    .contenuto-destra img {
+        width:800px;
+        height: 450px;
+        object-fit:cover;
+    }
+
 }
 
 @media (max-width: 992px) {
@@ -89,6 +98,57 @@
     .footer-col:not(:last-child) {
         border-bottom: 1px solid #333; /* Linea divisoria orizzontale */
     }
+    .section-5 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .contenuto-destra {
+        order: -1;
+        width: 100%;
+    }
+
+    .contenuto-destra img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 950 / 550;
+        object-fit: cover;
+    }
+
+    .contenuto-sinistra {
+        order: 0;
+        width: 100%;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    /* Nascondi descrizione */
+    .contenuto-sinistra p {
+        display: none;
+    }
+
+    /* Notizie SCORREVOLI sotto i 1000px */
+    .grid-5 {
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        gap: 16px;
+        padding: 20px 10px;
+    }
+
+    .box-item5 {
+        flex: 0 0 80%;
+        scroll-snap-align: start;
+        min-width: 260px;
+        max-width: 300px;
+        background-color: #111;
+        border-radius: 8px;
+    }
+
+
 }
 
 @media (max-width: 768px) {
@@ -213,7 +273,7 @@
 }
 
 @media (max-width: 800px) {
-    .featured-news {
+    .blocco-1{
         display: none;
     }
 
@@ -343,12 +403,21 @@
     .tablet-title{
         display: none;
     }
+    .blocco-4{
+        display: none;
+    }
+    .blocco-4-tablet{
+    display: none;
+}
+    .blocco-4-mobile {
+        display: block;
+    }
 
 }
 
 
-@media (min-width: 800px) and (max-width: 1100px) {
-    .featured-news {
+@media (min-width: 800px) and (max-width: 1200px) {
+    .blocco-1{
         display: none;
     }
 
@@ -538,6 +607,33 @@
         padding: 10px 0 0 50px;
         background: #fff;
     }
+    .blocco-4{
+        display: none;
+    }
+    .blocco-4-mobile {
+        display: none;
+    }
+    .grid-5 {
+        grid-template-columns: repeat(4, 1fr); /* 4 colonne fisse */
+    }
+
+    .box-item5 {
+        padding: 10px;
+    }
+
+    .text-content5 h4 {
+        font-size: 16px;
+    }
+
+    .text-content5 .time {
+        font-size: 10px;
+    }
+
+    .image-box5 img {
+        height: 140px;
+    }
+
+
 
 }
 
