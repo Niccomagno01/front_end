@@ -450,6 +450,12 @@ body {
 .title-top-mobile{
     display: none;
 }
+.blocco-4-title h3{
+    font-family: "Publico Headline", serif;
+    font-size: 60px;
+    padding: 30px 0 0 60px;
+    font-weight: bolder;
+}
 .blocco-4-mobile{
     display: none;
 }
