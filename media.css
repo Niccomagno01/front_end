@@ -438,6 +438,7 @@
         margin: 0 auto;
     }
 
+
     .grid-item h2 {
         font-size: 19px;
 
@@ -631,7 +632,10 @@
     .image-box5 img {
         height: 140px;
     }
+    .title-top-tablet {
+        display: block;
 
+    }
 
 
 }
