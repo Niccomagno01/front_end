@@ -568,3 +568,7 @@ body {
 .title-top5 h2{
     font-size:60px !important;
 }
+
+.end-content-tablet{
+    display: none;
+}
