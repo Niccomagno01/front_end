@@ -46,6 +46,14 @@
 
 
 }
+@media(min-width: 1040px) {
+    .title-top-tablet1{
+        display: none !important;
+    }
+    .title-top5{
+        display:block !important;
+    }
+}
 
 @media (max-width: 768px) {
     .news-list {
@@ -102,6 +110,7 @@
         flex-direction: column;
         align-items: center;
         gap: 20px;
+        padding: 0 0 0 0;
     }
 
     .contenuto-destra {
@@ -146,6 +155,7 @@
         max-width: 300px;
         background-color: #000;
     }
+
 
 
 }
@@ -412,7 +422,15 @@
     }
 
 }
+@media (max-width: 990px) {
 
+    .title-top-tablet1{
+        display: none !important;
+}
+    .title-top5{
+        display: none !important;
+    }
+}
 
 @media (min-width: 800px) and (max-width: 1200px) {
     .blocco-1{
