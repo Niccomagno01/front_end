@@ -420,6 +420,32 @@
     .blocco-4-mobile {
         display: block;
     }
+    .end-content-tablet{
+        display: none;
+    }
+    .end-content{
+        display: none;
+    }
+    .end-content-mobile {
+        display: block;
+    }
+    .more-button-container {
+        margin: 20px 0;
+    }
+
+    .more-button {
+        display: block;
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+        border: 1px solid #000;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+        background-color: transparent;
+    }
+
 
 }
 @media (max-width: 990px) {
@@ -675,6 +701,9 @@
     }
     .end-content{
         display:none;
+    }
+    .end-content-mobile {
+        display: none;
     }
     .end-content-tablet{
         display: block;

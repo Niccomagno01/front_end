@@ -572,3 +572,6 @@ body {
 .end-content-tablet{
     display: none;
 }
+.end-content-mobile {
+    display: none;
+}
