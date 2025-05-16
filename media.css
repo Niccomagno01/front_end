@@ -44,14 +44,15 @@
     }
 
 
-
 }
-@media(min-width: 1040px) {
-    .title-top-tablet1{
+
+@media (min-width: 1040px) {
+    .title-top-tablet1 {
         display: none !important;
     }
-    .title-top5{
-        display:block !important;
+
+    .title-top5 {
+        display: block !important;
     }
 }
 
@@ -75,10 +76,11 @@
         width: 250px;
         height: auto;
     }
+
     .contenuto-destra img {
-        width:800px;
+        width: 800px;
         height: 450px;
-        object-fit:cover;
+        object-fit: cover;
     }
 
 }
@@ -106,6 +108,7 @@
     .footer-col:not(:last-child) {
         border-bottom: 1px solid #333; /* Linea divisoria orizzontale */
     }
+
     .section-5 {
         flex-direction: column;
         align-items: center;
@@ -155,7 +158,6 @@
         max-width: 300px;
         background-color: #000;
     }
-
 
 
 }
@@ -282,7 +284,7 @@
 }
 
 @media (max-width: 800px) {
-    .blocco-1{
+    .blocco-1 {
         display: none;
     }
 
@@ -397,38 +399,49 @@
     .featured-news1 {
         display: none;
     }
-    .blocco-3{
+
+    .blocco-3 {
         display: none;
     }
+
     .blocco-3-mobile {
         display: block;
     }
+
     .blocco-3-mobile h2 {
         font-family: "Publico Headline", serif;
         font-weight: bolder;
         padding: 10px 0 0 25px;
     }
-    .tablet-title{
+
+    .tablet-title {
         display: none;
     }
-    .blocco-4{
+
+    .blocco-4 {
         display: none;
     }
-    .blocco-4-tablet{
-    display: none;
-}
+
+    .blocco-4-tablet {
+        display: none;
+    }
+
     .blocco-4-mobile {
         display: block;
     }
-    .end-content-tablet{
+
+    .end-content-tablet {
         display: none;
     }
-    .end-content{
+
+    .end-content {
         display: none;
     }
+
     .end-content-mobile {
         display: block;
     }
+
     .more-button-container {
         margin: 20px 0;
     }
@@ -448,12 +461,14 @@
 
 
 }
+
 @media (max-width: 990px) {
 
-    .title-top-tablet1{
+    .title-top-tablet1 {
         display: none !important;
-}
-    .title-top5{
+    }
+
+    .title-top5 {
         display: none !important;
     }
 }
@@ -699,13 +714,16 @@
     .text-area a:hover {
         text-decoration: underline;
     }
-    .end-content{
-        display:none;
+
+    .end-content {
+        display: none;
     }
+
     .end-content-mobile {
         display: none;
     }
-    .end-content-tablet{
+
+    .end-content-tablet {
         display: block;
     }
 }

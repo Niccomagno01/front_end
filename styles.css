@@ -32,12 +32,13 @@ body {
     margin: 40px 20px;
     background-color: #fff;
 }
-.featured-news-mobile{
-    display:none;
+
+.featured-news-mobile {
+    display: none;
 }
 
-.featured-news-tablet{
-    display:none;
+.featured-news-tablet {
+    display: none;
 }
 
 .featured-news1 {
@@ -84,14 +85,15 @@ body {
     padding: 30px 0 0 60px;
     font-weight: bolder;
 }
-.title-top-mobile{
+
+.title-top-mobile {
     display: none;
 }
 
 .title-top2 {
     color: #fff;
     padding: 30px 0 0 40px;
-    background:#00711A;
+    background: #00711A;
 }
 
 .title-top3 {
@@ -99,7 +101,7 @@ body {
     color: #fff;
 }
 
-.title-top-desktop h3{
+.title-top-desktop h3 {
     font-family: "Publico Headline", serif;
     font-size: 60px;
     padding: 30px 0 0 60px;
@@ -123,7 +125,7 @@ body {
     text-decoration: none;
 }
 
-.text-content1 a{
+.text-content1 a {
     color: #fff;
 }
 
@@ -169,6 +171,7 @@ body {
     flex: 1;
     text-align: center;
 }
+
 .related-item2 a {
 
     color: #fff;
@@ -220,7 +223,6 @@ body {
     font-size: 19px;
     transition: color 0.3s ease;
     color: black;
-    display: block;
 }
 
 .secondary-list a:hover {
@@ -271,7 +273,7 @@ body {
     float: left;
 }
 
-.news-item{
+.news-item {
     margin-top: 50px;
 }
 
@@ -283,7 +285,7 @@ body {
 
 .text-content {
     display: flex;
-    flex-direction: column;  /* Posiziona il testo sopra e l'orario sotto */
+    flex-direction: column; /* Posiziona il testo sopra e l'orario sotto */
     margin-bottom: auto;
 }
 
@@ -314,7 +316,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
     gap: 20px;
-    padding:20px 35px;
+    padding: 20px 35px;
     margin: 0;
     background-color: #00711A;
 }
@@ -342,8 +344,8 @@ body {
     text-align: left; /* Assicura che il testo sia allineato a sinistra */
 }
 
-.section-box1{
-    background:#00711A;
+.section-box1 {
+    background: #00711A;
 }
 
 .section-box img {
@@ -364,8 +366,8 @@ body {
     margin-bottom: 15px;
 }
 
-.section-box1 h3{
-    color:#fff;
+.section-box1 h3 {
+    color: #fff;
 }
 
 .section-box ul {
@@ -389,22 +391,23 @@ body {
     color: #000; /* Nero */
 }
 
-.section-box1 a{
-    color:#fff;
+.section-box1 a {
+    color: #fff;
 }
 
 .section-box a:hover {
     text-decoration: underline;
 }
 
-.featured-news1-mobile{
-    display:none;
+.featured-news1-mobile {
+    display: none;
 }
 
-.featured-news1-tablet{
-    display:none;
+.featured-news1-tablet {
+    display: none;
 }
-.title-top-tablet{
+
+.title-top-tablet {
     display: none;
 }
 
@@ -448,31 +451,39 @@ body {
     height: 100%;
     object-fit: cover;
 }
-.blocco-3-mobile{
+
+.blocco-3-mobile {
     display: none;
 }
-.grid-3-columns{
-    display:none;
-}
-.title-top-mobile{
+
+.grid-3-columns {
     display: none;
 }
-.blocco-4-title h3{
+
+.title-top-mobile {
+    display: none;
+}
+
+.blocco-4-title h3 {
     font-family: "Publico Headline", serif;
     font-size: 60px;
     padding: 30px 0 0 60px;
     font-weight: bolder;
 }
-.blocco-4-mobile{
+
+.blocco-4-mobile {
     display: none;
 }
-.blocco-4-tablet{
+
+.blocco-4-tablet {
     display: none;
 }
-.tablet-title{
-    display:none;
+
+.tablet-title {
+    display: none;
 }
-.related-item-1{
+
+.related-item-1 {
     padding-top: 25px;
 }
 
@@ -484,7 +495,7 @@ body {
     background-color: #000;
     gap: 20px;
     flex-wrap: nowrap;
-   }
+}
 
 .contenuto-sinistra {
     font-family: "Publico Headline", sans-serif;
@@ -565,13 +576,15 @@ body {
     margin-top: 2px;
     margin-left: 2px;
 }
-.title-top5 h2{
-    font-size:60px !important;
+
+.title-top5 h2 {
+    font-size: 60px !important;
 }
 
-.end-content-tablet{
+.end-content-tablet {
     display: none;
 }
+
 .end-content-mobile {
     display: none;
 }
